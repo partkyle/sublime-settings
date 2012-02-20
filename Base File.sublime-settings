@@ -1,7 +1,7 @@
 {
   // UI Settings
+  "color_scheme": "Packages/User/Tomorrow Theme/Tomorrow-Night.tmTheme",
   "highlight_line": true,
-  "color_scheme": "Packages/TextMate-Tomorrow-Theme/Tomorrow-Night.tmTheme",
   "find_selected_text": true,
 
   // Font Settings
