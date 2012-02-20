@@ -1,0 +1,17 @@
+{
+  // UI Settings
+  "highlight_line": true,
+  "color_scheme": "Packages/TextMate-Tomorrow-Theme/Tomorrow-Night.tmTheme",
+  "find_selected_text": true,
+
+  // Font Settings
+  "font_face": "Meslo LG M DZ",
+  "font_size": 11,
+
+  // Tab/Spaces settings
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+
+  // Only Use Unix Line Endings
+  "default_line_ending": "unix"
+}

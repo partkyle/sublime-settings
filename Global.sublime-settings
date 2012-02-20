@@ -1,0 +1,8 @@
+{
+  // UI Settings
+  "theme": "Soda Light.sublime-theme",
+
+  "highlight_modified_tabs": true,
+
+  "close_windows_when_empty": true
+}
