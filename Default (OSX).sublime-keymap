@@ -1,2 +1,5 @@
 [
+  { "keys": ["super+shift+r"], "command": "refresh_folder_list" },
+
+  { "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} }
 ]
