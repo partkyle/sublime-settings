@@ -11,8 +11,7 @@
 	"font_face": "Meslo LG M DZ",
 	"font_options":
 	[
-		"no_bold",
-		""
+		"no_bold"
 	],
 	"font_size": 15.0,
 	"highlight_line": true,
