@@ -1,0 +1,4 @@
+{
+  "cmd": ["/Users/partkyle/.rvm/bin/ruby", "$file"],
+  "selector": "source.ruby"
+}
