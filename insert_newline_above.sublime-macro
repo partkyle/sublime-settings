@@ -10,6 +10,13 @@
 	{
 		"args":
 		{
+			"to": "hardeol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
 			"characters": "\n"
 		},
 		"command": "insert"
