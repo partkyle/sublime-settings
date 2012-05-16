@@ -3,7 +3,5 @@
 
   { "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
 
-  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
-
-  { "keys": ["ctrl+shift+o"], "command": "run_macro", "args": "insert_newline_above"}
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" }
 ]
