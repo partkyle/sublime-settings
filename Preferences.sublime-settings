@@ -26,8 +26,9 @@
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
+	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
-	"theme": "Soda Light.sublime-theme",
+	"overlay_scroll_bars": "enabled",
 	"word_wrap": false
 }
