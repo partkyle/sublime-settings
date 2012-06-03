@@ -22,12 +22,13 @@
 	],
 	"indent_guide_options":
 	[
-		"draw_active", "draw_normal"
+		"draw_active",
+		"draw_normal"
 	],
 	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"tab_size": 2,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Soda Light Refined.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"use_simple_full_screen": true,
