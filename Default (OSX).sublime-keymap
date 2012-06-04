@@ -1,7 +1,34 @@
 [
+  // refresh the folder list
   { "keys": ["super+shift+r"], "command": "refresh_folder_list" },
 
+  // open preferences
   { "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
 
-  { "keys": ["super+shift+t"], "command": "reopen_last_file" }
+  // fix the reopen last tab bug
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
+  //
+  // emacs keybindings
+  // some of these are defaults, they are added for consistency
+  //
+  // file handling
+  { "keys": ["ctrl+x", "ctrl+f"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["ctrl+x", "ctrl+s"], "command": "save" },
+
+  // begginning and end of line
+  { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+  // scrolling
+  { "keys": ["alt+v"], "command": "move", "args": {"by": "pages", "forward": false} },
+  { "keys": ["ctrl+v"], "command": "move", "args": {"by": "pages", "forward": true} },
+
+  // moving by words
+  { "keys": ["alt+f"], "command": "move", "args": {"by": "words", "forward": true} },
+  { "keys": ["alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
+
+  // undo and redo
+  { "keys": ["ctrl+/"], "command": "undo"},
+  { "keys": ["ctrl+shift+/"], "command": "redo"}
 ]
