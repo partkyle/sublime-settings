@@ -27,17 +27,25 @@
 
   // begginning and end of line
   { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["ctrl+shift+a"], "command": "move_to", "args": {"to": "bol", "extend": true} },
   { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["ctrl+shift+e"], "command": "move_to", "args": {"to": "eol", "extend": true} },
 
   // scrolling
   { "keys": ["alt+v"], "command": "move", "args": {"by": "pages", "forward": false} },
+  { "keys": ["alt+shift+v"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true} },
   { "keys": ["ctrl+v"], "command": "move", "args": {"by": "pages", "forward": true} },
+  { "keys": ["ctrl+shift+v"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true} },
 
   // standard moving
   { "keys": ["alt+f"], "command": "move", "args": {"by": "words", "forward": true} },
+  { "keys": ["alt+shift+f"], "command": "move", "args": {"by": "words", "forward": true, "extend": true} },
   { "keys": ["alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
+  { "keys": ["alt+shift+b"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
   { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["ctrl+shift+p"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
   { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["ctrl+shift+n"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
 
   // undo and redo
   { "keys": ["ctrl+/"], "command": "undo"},
